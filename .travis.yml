@@ -9,4 +9,4 @@ script:
   - npm test
 
 after_success:
-  - echo "All done!"
+  - ./node_modules/.bin/coveralls < coverage/lcov.info
