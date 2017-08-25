@@ -1,5 +1,5 @@
 # WFH-excuses
-Work from Home excuses generator
+Working from Home excuses generator
 
 > Funny excuse genrator to use when you have to Work From Home (#WFH).
 
@@ -17,7 +17,7 @@ npm start
 # Usage
 Access browser at http://localhost:8000/wfh to get a random excuse.
 
-Optionally you can use query-string to use some of available custom language http://localhost:8000/wfh?lang=pt
+Optionally you can use query-string to use some of custom available language http://localhost:8000/wfh?lang=pt
 
 # Setup
 ```shell
