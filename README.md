@@ -1,6 +1,8 @@
 # WFH-excuses
 Work from Home excuses generator
 
+[![Build Status](https://travis-ci.org/lnfnunes/WFH-excuses.svg?branch=master)](https://travis-ci.org/lnfnunes/WFH-excuses)
+
 > Funny excuse genrator to use when you have to Work From Home (#WFH).
 
 # Setup
