@@ -1,0 +1,94 @@
+{
+  "excuses": [
+    {
+      "active": true,
+      "en": "I've a Dr appointment this morning at 10h40 hence I'll #WFH.",
+      "pt": "Tenho médico hoje às 10h40, por isso vou #WFH."
+    },
+    {
+      "active": true,
+      "en": "I'm not feeling very well today hence I'll #WFH.",
+      "pt": "Não estou me sentindo muito bem hoje, portanto irei #WFH."
+    },
+    {
+      "active": true,
+      "en": "I will be #WFH tomorrow from 7am since my plane is leaving at 5pm.",
+      "pt": "Amanhã irei #WFH a partir das 7h pois meu vôo sai às 17h."
+    },
+    {
+      "active": true,
+      "en": "I'm #WFH due to an unexpected situation at home.",
+      "pt": "Tive um imprevisto #WFH"
+    },
+    {
+      "active": true,
+      "en": "#WFH: Car trouble yesterday and today. Punctured tire, replaced and alignment today.",
+      "pt": "#WFH: Problemas com o carro ontem e hoje! Pneu furado, troca e alinhamento hoje."
+    },
+    {
+      "active": true,
+      "en": "I am very unwell and have lost my voice since last evening. I will be #WFH today.",
+      "pt": "Estou muito mal e sem voz desde ontem à noite. #WFH"
+    },
+    {
+      "active": true,
+      "en": "Will be #WFH rest of day. Need to catch a flight shortly after work.",
+      "pt": "Estarei #WFH resto do dia. Preciso pegar um vôo logo após o trabalho."
+    },
+    {
+      "active": true,
+      "en": "I'm #WFH today again, my stomach is still feeling weird.",
+      "pt": "#WFH hoje denovo, meu estômago ainda está estranho."
+    },
+    {
+      "active": true,
+      "en": "#WFH Back to the tire shop to install tire and do alignment before lunch hour today.",
+      "pt": "#WFH Voltei na oficina pra trocar o pneu e alinhamento antes do almoço."
+    },
+    {
+      "active": true,
+      "en": "I'm not feeling very well today. I'll #WFH and will be available by all usual means.",
+      "pt": "Não estou me sentindo muito bem hoje. #WFH estarei disponível normalmente."
+    },
+    {
+      "active": true,
+      "en": "I'll be #WFH on Thursday. Wife is getting her wisdom teeth out that morning.",
+      "pt": "Estarei #WFH na quinta-feira. Minha esposa vai tirar o dente do siso de manhã."
+    },
+    {
+      "active": true,
+      "en": "I will be #WFH today, kids are off this week",
+      "pt": "#WFH hoje, meus filhos estarão fora essa semana"
+    },
+    {
+      "active": true,
+      "en": "It's raining and my car is far away. #WFH",
+      "pt": "Está chovendo e meu carro está muito longe. #WFH"
+    },
+    {
+      "active": true,
+      "en": "#WFH today, car is at the mechanic getting fixed for inspection.",
+      "pt": "#WFH hoje, meu carro está na revisão."
+    },
+    {
+      "active": true,
+      "en": "We lost our apartment keys last night and got locked out! We just entered into apartment by borrowing spare key from Leasing office. I will #WFH in the morning session.",
+      "pt": "Perdemos as chaves do apartamento noite passada e ficamos trancado pra fora! Conseguimos entrar alugando uma chave extra. #WFH nesta manhã"
+    },
+    {
+      "active": true,
+      "en": "My daughter's daycare is closed today due to some emergency work in center so I'll #WFH.",
+      "pt": "A creche da minha filha está fechada hoje devido a alguma emergência. #WFH."
+    },
+    {
+      "active": true,
+      "en": "I've an appointment at DMV office this afternoon hence I'll #WFH today.",
+      "pt": "Vou no DETRAN de tarde, então hoje estarei #WFH."
+    },
+    {
+      "active": true,
+      "en": "I got flu and is #WFH today as I am feverish and got body pain. I will be connected and available over phone and slack too.",
+      "pt": "#WFH Peguei uma gripe, estou febril e com dor no corpo. Ficarei disponível no celular e Slack."
+    }
+  ]
+}
