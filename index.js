@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const db = require('./db.json')
-const pickExcuse = require('./wfh-excuses')
+const db = require('./database.json')
+const pickExcuse = require('./functions/wfh-excuses')
 const wfh = pickExcuse(db)
 
 app.get('/wfh', function(req, res){

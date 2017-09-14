@@ -8,22 +8,17 @@ Working from Home excuses generator
 
 ![#WFH](https://media.tenor.com/images/9516072e24d292492bfb7975a1b0c774/tenor.gif)
 
-# Setup
+## Usage
+Access browser at [https://us-central1-wfh-excuses.cloudfunctions.net/wfh/](https://us-central1-wfh-excuses.cloudfunctions.net/wfh/) to get a random excuse.
+
+Optionally you can add an extra query-string _(?lang=pt)_ to retrieve the message at a custom available language translation.
+
+## Local setup (development)
 ```shell
 npm install
 npm start
 ```
+Access browser at [http://localhost:8000/wfh/](http://localhost:8000/wfh/)
 
-# Usage
-Access browser at http://localhost:8000/wfh to get a random excuse.
-
-Optionally you can use query-string to use some of custom available language http://localhost:8000/wfh?lang=pt
-
-# Setup
-```shell
-npm install
-npm start
-```
-
-# License
+## License
 [ISC License](LICENSE.md) © Leandro Nunes

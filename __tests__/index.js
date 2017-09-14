@@ -1,5 +1,5 @@
-const db = require('../db.json')
-const pickExcuse = require('../wfh-excuses.js')
+const db = require('../database.json')
+const pickExcuse = require('../functions/wfh-excuses.js')
 
 test('Should store DB reference', () => {
   const wfh = pickExcuse(db)
