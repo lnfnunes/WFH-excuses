@@ -9,7 +9,7 @@ Working from Home excuses generator
 ![#WFH](https://media.tenor.com/images/9516072e24d292492bfb7975a1b0c774/tenor.gif)
 
 ## Usage
-Access browser at [https://us-central1-wfh-excuses.cloudfunctions.net/wfh/](https://us-central1-wfh-excuses.cloudfunctions.net/wfh/) to get a random excuse.
+Access browser at [https://us-central1-wfh-excuses-gh.cloudfunctions.net/wfh](https://us-central1-wfh-excuses-gh.cloudfunctions.net/wfh) to get a random excuse.
 
 Optionally you can add an extra query-string _(?lang=pt)_ to retrieve the message at a custom available language translation.
 
