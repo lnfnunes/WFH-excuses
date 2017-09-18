@@ -1,6 +1,6 @@
 {
   "name": "wfh-excuses-bot",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Working from Home excuses generator",
   "author": {
     "name": "Leandro Nunes",
@@ -8,12 +8,14 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest --coverage",
-    "start": "node index.js"
+    "test": "jest --coverage --coverageDirectory .nyc_output",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "start": "node index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lnfnunes/wfh-excuses-generator"
+    "url": "https://github.com/lnfnunes/WFH-excuses"
   },
   "keywords": [
     "wfh",
@@ -31,6 +33,8 @@
     "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "jest": "^20.0.4",
-    "request": "^2.81.0"
+    "nyc": "^11.2.1",
+    "request": "^2.81.0",
+    "semantic-release": "^8.0.0"
   }
 }

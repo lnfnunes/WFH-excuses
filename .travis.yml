@@ -1,12 +1,18 @@
+sudo: false
 language: node_js
 node_js:
-  - "6"
-
-install:
-  - npm install
-
+  - "8"
+cache:
+  directories:
+    - node_modules
+branches:
+  only:
+    - master
+before_script:
+  - npm prune
 script:
   - npm test
-
+  - npm run check-coverage
 after_success:
-  - ./node_modules/.bin/coveralls < coverage/lcov.info
+  - ./node_modules/.bin/coveralls < .nyc_output/lcov.info
+  - npm run semantic-release
