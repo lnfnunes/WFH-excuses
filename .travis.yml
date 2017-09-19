@@ -2,6 +2,8 @@ sudo: false
 language: node_js
 node_js:
   - "8"
+  - "7"
+  - "6"
 cache:
   directories:
     - node_modules
@@ -15,4 +17,3 @@ script:
   - npm run check-coverage
 after_success:
   - ./node_modules/.bin/coveralls < .nyc_output/lcov.info
-  - npm run semantic-release

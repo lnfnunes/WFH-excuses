@@ -4,18 +4,12 @@
   "description": "Working from Home excuses generator",
   "author": {
     "name": "Leandro Nunes",
-    "email": "dr1design@gmail.com"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage --coverageDirectory .nyc_output",
-    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "start": "node index.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "email": "dr1design@gmail.com",
+    "url": "lnfnunes.com.br"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lnfnunes/WFH-excuses"
+    "url": "lnfnunes/WFH-excuses"
   },
   "keywords": [
     "wfh",
@@ -23,18 +17,19 @@
     "apologies",
     "bot"
   ],
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.15.4"
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --coverageDirectory .nyc_output",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "start": "node index.js"
   },
+  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "axios": "^0.16.2",
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "jest": "^20.0.4",
-    "nyc": "^11.2.1",
-    "request": "^2.81.0",
-    "semantic-release": "^8.0.0"
+    "nyc": "^11.2.1"
   }
 }
