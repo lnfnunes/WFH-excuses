@@ -19,16 +19,12 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --coverageDirectory .nyc_output",
-    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
+    "test": "jest --config .jestrc.json"
   },
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "babel-jest": "^20.0.3",
-    "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
-    "jest": "^20.0.4",
-    "nyc": "^11.2.1"
+    "jest": "^21.2.1"
   }
 }
