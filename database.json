@@ -94,6 +94,11 @@
       "active": true,
       "en": "I will be #WFH today, my kids are sick and I need to look after them.",
       "pt": "Eu serei #WFH hoje, meus filhos estão doentes e preciso cuidar deles."
+    },
+    {
+      "active": true,
+      "en": "I woke up late, that's why I am #WFH today.",
+      "pt": "Acordei tarde, por isso vou #WFH hoje."
     }
   ]
 }
