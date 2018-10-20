@@ -99,6 +99,11 @@
       "active": true,
       "en": "I woke up late, that's why I am #WFH today.",
       "pt": "Acordei tarde, por isso vou #WFH hoje."
+    },
+    {
+      "active": true,
+      "en": "I will be #WFM because I'm waiting a shipment to arrive today.",
+      "pt": "Vou #WFH porque estou aguardando uma encomenda chegar hoje."
     }
   ]
 }
