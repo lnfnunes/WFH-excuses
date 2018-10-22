@@ -102,8 +102,13 @@
     },
     {
       "active": true,
-      "en": "I will be #WFM because I'm waiting a shipment to arrive today.",
+      "en": "I will be #WFH because I'm waiting a shipment to arrive today.",
       "pt": "Vou #WFH porque estou aguardando uma encomenda chegar hoje."
+    },
+    {
+      "active": true,
+      "en": "My dog is sick, so I'm going to #WFH today.",
+      "pt": "Meu cachorro está doente, então estarei #WFH hoje"
     }
   ]
 }
