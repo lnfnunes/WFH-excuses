@@ -1,6 +1,9 @@
 const db = require('../database.json')
 const wfh = require('../index.js')()
 
+const {active, ...restLanguages} = db.excuses[0]
+const languages = Object.keys(restLanguages)
+
 test('Should return a random excuse from default language (en)', () => {
   const lang = 'en'
   const arrValid = db.excuses.map(item => item[lang])
@@ -43,4 +46,18 @@ test('Should initialize with a default custom language code', () => {
   const wfhCustom = require('../index.js')(lang)
   const arrValid = db.excuses.map(item => item[lang])
   expect(arrValid.includes(wfhCustom.pick())).toBe(true)
+});
+
+test('Should all excuses have the #wfh hashtag', () => {
+  languages.map(lang => {
+    const resultEN = db.excuses.every(item => item[lang].match(/#WFH/g).length === 1)
+    expect(resultEN).toBe(true)
+  })
+});
+
+test('Should all excuses have more than 15 characters', () => {
+  languages.map(lang => {
+    const resultEN = db.excuses.every(item => item[lang].length > 15)
+    expect(resultEN).toBe(true)
+  })
 });
