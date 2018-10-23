@@ -1,15 +1,14 @@
 sudo: false
 language: node_js
-node_js:
-  - "8.5"
-  - "7"
-  - "6"
+node_js: lts/*
 cache:
+  yarn: true
   directories:
     - node_modules
 before_script:
-  - npm prune
+  - yarn
 script:
-  - npm test
+  - yarn test
 after_success:
   - ./node_modules/.bin/coveralls < coverage/lcov.info
+
