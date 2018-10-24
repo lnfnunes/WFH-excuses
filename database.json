@@ -109,6 +109,11 @@
       "active": true,
       "en": "My dog is sick, so I'm going to #WFH today.",
       "pt": "Meu cachorro está doente, então estarei #WFH hoje"
+    },
+    {
+      "active": true,
+      "en": "A company is going to do pest control here in my house and I will have to stay here to give them assistence, I'll be #WFH.",
+      "pt": "Vem uma empresa fazer dedetização aqui em casa e vou precisar ficar aqui para dar assistencia, ficarei #WFH."
     }
   ]
 }
