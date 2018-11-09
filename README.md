@@ -1,4 +1,7 @@
 # WFH-excuses
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lnfnunes/WFH-excuses.svg)](https://greenkeeper.io/)
+
 Working from Home excuses generator
 
 > Funny excuses generator to use when you have to Work From Home (#WFH).
