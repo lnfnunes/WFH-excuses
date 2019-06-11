@@ -2,7 +2,7 @@
   "name": "wfh-excuses-serverless",
   "description": "WFH-Excuses serverless implementation using Firebase Cloud Functions",
   "dependencies": {
-    "firebase-admin": "~7.4.0",
+    "firebase-admin": "~8.1.0",
     "firebase-functions": "^2.1.0",
     "wfh-excuses": "^1.0.5"
   },
